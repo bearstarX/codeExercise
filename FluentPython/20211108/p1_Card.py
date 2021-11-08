@@ -17,6 +17,11 @@ class FrenchDeck:
 	suits = 'spades diamonds clubs hearts'.split(' ')
 
 	def __init__(self):
+		# 如下代码为self._cards简写
+		# self._cards = []
+		# for suit in self.suits:
+		# 	for rank in self.ranks:
+		# 		self._cards.append(Card(rank,suit))
 		self._cards = [Card(rank,suit) for suit in self.suits for rank in self.ranks]
 
 	def __len__(self):
