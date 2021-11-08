@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-#
 # ----------------------
 # Name: p1
-# Description: 一摞卡片
+# Description: 一摞卡片-p29实例
 # Author: luozelin
 # Date: 2021/11/8 0008
 # ----------------------
